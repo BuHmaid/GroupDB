@@ -1,0 +1,214 @@
+/* 
+    Document   : style
+    Created on : 18/07/2012, 2:09:20 PM
+    Author     : Malcolm.McKenzie
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+table { 
+ border-collapse: collapse; 
+ border: 2px solid; 
+}
+
+TD { 
+ border-width: 1px; 
+ border-style: solid dotted; 
+}
+
+
+* {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+/* general */
+a {
+	color:#2FAD0C;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#333;
+	text-decoration:none;
+}
+
+/* body */
+body {
+	background:#0B6138;
+	color:#FFFF00;
+	font:0.8em Arial, Helvetica, "bitstream vera sans", sans-serif;
+}
+
+/* header */
+#header {
+	/*border-bottom:1px solid #999;*/
+	height:80px;
+	margin:0 auto;
+	width:751px;
+}
+#header h1 {
+	color:#888;
+	font-size:300%;
+	letter-spacing:-3px;
+	text-align:right;
+	padding:5px;
+	margin-bottom:-20px;
+}
+#header h2 {
+	color:#CCC;
+	font-size:200%;
+	letter-spacing:-2px;
+	text-align:right;
+}
+
+/* navigation */
+#navigation {
+	background:#F5A9A9;
+	border-right:1px solid #999;
+	margin:0 auto;
+	width:410px;
+	height:40px;
+	list-style:none;
+        float: none;
+}
+#navigation li {
+	border-left:1px solid #999;
+	float:left;
+	width:100px;
+	list-style:none;
+}
+#navigation a {
+	color:#555;
+	display:block;
+	line-height:40px;
+	text-align:center;
+}
+#navigation a:hover {
+	background:#e3e3e3;
+	color:#555;
+}
+#navigation .active {
+	background:#e3e3e3;
+	color:#777;
+}
+
+/* content */
+#content {
+	height:auto;
+	margin:0 auto;
+	padding:0 0 20px;
+	width:751px;
+}
+#content h1 {
+	border-bottom:1px dashed #999;
+	font-size:1.8em;
+	padding:20px 0 0;
+}
+#content p {
+	padding:20px 20px 0;
+}
+
+/* footer */
+#footer {
+	border-top:1px solid #999; 
+	height:50px;
+	margin:0 auto;
+	padding:10px;
+	text-align:center;
+	width:751px;
+}
+
+/* Added by Larry Ullman: */
+.error {
+	font-weight: bold;
+	color: #C00
+}
+
+.info {
+	font-weight: bold;
+	color: midnightblue
+}
+nav {
+/*	background:#F5A9A9;*/
+/*	border-right:1px solid #999;*/
+	margin:0 auto;
+	width:410px;
+	height:30px;
+	list-style:none;
+        float: none;
+}
+
+
+nav ul ul {
+	display: none;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav ul {
+	background: #efefef; 
+	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
+	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+nav ul:after {
+	content: ""; clear: both; display: block;
+}
+
+nav ul li {
+	float: left;
+}
+nav ul li:hover {
+		background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+}
+nav ul li:hover a {
+		color: #fff;
+}
+
+nav ul li a {
+	display: block; padding: 25px 40px;
+	color: #757575; text-decoration: none;
+}
+
+nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+nav ul ul li {
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+}
+nav ul ul li a {
+			padding: 15px 40px;
+			color: #fff;
+		}	
+nav ul ul li a:hover {
+			background: #4b545f;
+}
+
+nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}
+
+input.groovybutton
+{
+   color:#FFFFFF;
+   background-color:#006699;
+   border-style:outset;
+}
+
+

@@ -6,6 +6,7 @@ error_reporting(E_ALL);
 $page_title = 'Add Employee';
 
 include 'header.html';
+//this is good
 ?>
 
 
